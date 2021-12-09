@@ -1,0 +1,27 @@
+{
+  "name": "node-script",
+  "version": "1.0.0",
+  "description": "Some nodejs scripts.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "luck:dev": "yarn workspace @node-script/lucky dev",
+    "ethers:dev": "yarn workspace @node-script/ethers dev",
+    "gc": "git add -A && git cz && git pull && git push",
+    "pkg:sort": "npx sort-package-json"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bip39": "^3.0.4",
+    "chalk": "^4.1.2",
+    "crypto-js": "^4.1.1",
+    "ethers": "^5.5.2",
+    "moment": "^2.29.1",
+    "node-schedule": "^2.0.0"
+  },
+  "packageManager": "yarn@3.1.1"
+}
