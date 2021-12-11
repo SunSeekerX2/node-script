@@ -1,0 +1,17 @@
+{
+  "name": "@node-script/pepsi",
+  "packageManager": "yarn@3.1.1",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node src/index.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.41"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
