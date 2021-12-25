@@ -2,7 +2,12 @@
   "name": "@node-script/ethers",
   "packageManager": "yarn@3.1.1",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "gen:m": "node gen-mnemonic"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "ethers": "^5.5.2"
+  }
 }

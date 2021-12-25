@@ -408,6 +408,9 @@ __metadata:
 "@node-script/ethers@workspace:packages/ethers":
   version: 0.0.0-use.local
   resolution: "@node-script/ethers@workspace:packages/ethers"
+  dependencies:
+    bip39: ^3.0.4
+    ethers: ^5.5.2
   languageName: unknown
   linkType: soft
 
